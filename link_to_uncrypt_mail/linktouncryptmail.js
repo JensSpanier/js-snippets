@@ -6,7 +6,7 @@ function UnCryptMailto(s) {
     if (n >= 8364) {
       n = 128;
     }
-    r += String.fromCharCode(n-(1));
+    r += String.fromCharCode(n - 1);
   }
   return r;
 }
